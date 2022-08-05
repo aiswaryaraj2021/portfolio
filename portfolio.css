@@ -1,0 +1,103 @@
+body{
+    text-align: center;
+    margin: 0;
+}
+.menu{
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+}
+.links{
+    display: inline;
+    padding-left: 30px;
+    padding-right: 40px;
+    font-size: 23px;
+    font-family: 'Signika', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+    text-shadow:2px 1px 1px rgb(90, 91, 88) ;
+}
+
+/* PSEUDO CLASSES
+STNTAX
+selectorType : pseudo-class{ property:value}
+ */
+ .links:hover{
+    text-decoration: underline;
+    font-size: 27px;
+ }
+
+ /* scroll behavior given for html */
+ html{
+    scroll-behavior: smooth;
+ }
+
+ #welcome{
+    background-image: linear-gradient(orange,white, green);
+ }
+
+ .profile{
+   margin-top: 50px;
+   border-radius: 600px;
+ }
+ h1{
+    font-size: 50px;
+    font-weight: 600;
+    font-family: 'Cinzel', serif;
+ }
+
+h2{
+    font-size: 40px;
+    padding-bottom: 10px;
+    color: white;
+}
+#namess{
+    color: rgb(3, 35, 21);
+    font-size: 80px;
+}
+ #bio{
+    padding: 20px;
+    font-size: 30px;
+    background-color: aquamarine;
+ }
+
+ .line{
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: auto;
+ }
+
+ #writings a{
+    text-decoration: underline;
+    text-shadow: none;
+    color: blue;
+ }
+
+ #writings a:hover{
+    color: red;
+    font-size: 40px;
+ }
+
+ #contact iframe{
+    width: 100%;
+ }
+
+ #contact a{
+    text-decoration: underline;
+    text-shadow: none;
+    color: blue;
+
+ }
+
+ #contact a:hover{
+    color: red;
+    font-size: 40px;
+ }
+
+ .contact_1 h3{
+    display: inline;
+ }
